@@ -1,1 +1,1 @@
-Flask
+Flask==99.0.0

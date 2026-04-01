@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Erro na aplicação"
+    return "Aula 4 – Testes com Pytest + Integração Completa com Git e GitHub Actions"
 
 
 

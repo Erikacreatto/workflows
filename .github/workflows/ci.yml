@@ -3,7 +3,7 @@ name: CI - API Flask
 on:
   push:
     branches:
-      - main
+      - aula-4-testes-ci
 
 jobs:
   build:
@@ -23,3 +23,8 @@ jobs:
 
       - name: Verificar sintaxe
         run: python -m py_compile app.py
+
+      - run: pip install -r requirements.txt
+
+      - run: pytest
+

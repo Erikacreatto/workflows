@@ -9,3 +9,9 @@ def test_home():
     assert response.status_code == 200
     assert "Aula 4" in texto
 
+def test_home_status():
+    client = app.test_client()
+    response = client.get("/")
+
+    assert response.status_code == 200
+

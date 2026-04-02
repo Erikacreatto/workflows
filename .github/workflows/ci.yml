@@ -25,5 +25,5 @@ jobs:
         run: python -m py_compile app.py
 
       - name: Rodar testes
-        run: pytest -m pytest
+        run: python -m pytest
 
